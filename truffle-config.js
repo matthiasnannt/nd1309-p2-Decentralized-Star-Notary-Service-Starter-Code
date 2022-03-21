@@ -22,11 +22,10 @@
  *
  */
 
-const HDWallet = require("truffle-hdwallet-provider");
+/* const HDWallet = require("truffle-hdwallet-provider");
 const infuraKey = "fj4jll3k.....";
-//
 const fs = require("fs");
-const mnemonic = fs.readFileSync(".secret").toString().trim();
+const mnemonic = fs.readFileSync(".secret").toString().trim(); */
 
 module.exports = {
   /**
@@ -52,7 +51,7 @@ module.exports = {
       network_id: "*", // Any network (default: none)
     },
 
-    rinkeby: {
+    /* rinkeby: {
       provider: () =>
         new HDWalletProvider(
           mnemonic,
@@ -61,7 +60,7 @@ module.exports = {
       network_id: 4,
       gas: 4500000,
       gasPrice: 10000000000,
-    },
+    }, */
 
     // Another network with more advanced options...
     // advanced: {
