@@ -5,7 +5,9 @@ In this udacity project, a DApp with smart contracts was developed and deployed 
 ## Contract on Rinkeby
 
 ERC-721 Token Name: `Star Notary Service`
+
 ERC-721 Token Symbol: `SNS`
+
 ERC-721 Contract/Token Address: `0x19Fbc6FEd1d40094fa1C4E6B932819C2CBe45fb6`
 
 Truffle Version: 5.5.4
